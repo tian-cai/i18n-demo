@@ -1,0 +1,41 @@
+.app {
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  margin-top: 20px;
+}
+table {
+  margin: auto;
+  width: 666px;
+  height: 100%;
+  max-width: 100%;
+  overflow: hidden;
+  color: #515a6e;
+  font-size: 12px;
+  background-color: #fff;
+  box-sizing: border-box;
+}
+table td, table th {
+  min-width: 0;
+  height: 48px;
+  box-sizing: border-box;
+  text-align: left;
+  text-overflow: ellipsis;
+  vertical-align: middle;
+  border-bottom: 1px solid #e8eaec;
+}
+table td {
+  background-color: #fff;
+  transition: background-color .2s ease-in-out;
+}
+table th {
+  height: 40px;
+  white-space: nowrap;
+  overflow: hidden;
+  background-color: #f8f8f9;
+}
+
+
+

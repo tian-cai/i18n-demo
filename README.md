@@ -4,3 +4,4 @@
 ### 目录说明
 
 - vue   vue的国际化demo
+- react react的国际化demo
